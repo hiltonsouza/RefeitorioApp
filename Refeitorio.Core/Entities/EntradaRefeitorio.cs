@@ -5,4 +5,5 @@ public class EntradaRefeitorio
     public Pessoa Pessoa { get; set; } // Pessoa que fez a entrada
     public DateTime? EntradaDataHora { get; set; } // hora que a pessoa entrou no refeitório
     public string TipoRefeicao { get; set; } // "Almoço", "Jantar", "Café"
+    public string UsuarioRegistro { get; set; } // Nome do usuário que registrou a entrada
 }

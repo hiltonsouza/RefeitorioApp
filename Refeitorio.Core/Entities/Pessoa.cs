@@ -6,4 +6,5 @@ public class Pessoa
     public string CodigoBarras { get; set; } // Código de barras único para identificação da pessoa
     public required string TipoPessoa { get; set; } // "Funcionário", "Visitante"
     public List<EntradaRefeitorio> Entradas { get; set; } // Lista de entradas no refeitório associadas a esta pessoa
+    public string UsuarioCadastro { get; set; } // Nome do usuário que registrou a pessoa
 }
